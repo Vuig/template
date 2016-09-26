@@ -1,0 +1,113 @@
+body {background-color: #f2f2f2; 
+
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h2{font-size:18px;
+	line-height: 20px;
+	color: black;
+	font-family: helvetica;
+}
+
+.articles {padding: 0px;
+padding-top: 30px;
+float:left;
+text-align: left;
+margin-top:20px;
+	
+}
+.tagline {
+	
+position: absolute;
+color: white;
+top:220px;
+font-family: helvetica;
+font-size: 40px;
+z-index: 10000;
+
+}
+.navbar-inner {background:none; background-color: #0faaf1;border-bottom: 1px solid #1a866d;    box-shadow: 0 0px 0px rgba(0,0,0,0) !important;
+    -moz-box-sizing: border-box; }
+
+.navbar .nav {
+    position: relative;
+    left: 0;
+    display: block;
+    float: right;
+    margin: 0 10px 0 0;
+}
+
+.navbar .brand {
+    display: block;
+    float: left;
+    padding: 10px 20px 10px;
+    margin-left: -20px;
+    font-size: 22px;
+    font-weight: 900;
+    color: #ffffff;
+    text-shadow: none;
+   
+}.navbar .nav>li>a {
+    float: none;
+    padding: 10px 15px 10px;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 0px 0 #fff;
+}
+.bigpic img {
+	
+margin-top: -700px;
+	
+}
+
+a:hover{ color: #ffffff !important;
+    text-decoration: none;
+    background-color: #2081cb;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0.125);
+    -moz-box-shadow: inset 0 0px 0px rgba(0,0,0,0.125);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0.125);
+}
+
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #2081cb;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0.125);
+    -moz-box-shadow: inset 0 0px 0px rgba(0,0,0,0.125);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0.125);
+}
+
+.leading-0 {background-color: white; margin-bottom: 20px; padding:20px; 
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -moz-box-sizing: border-box;
+    padding-top:0px;
+    box-sizing: border-box;}
+.item {background-color:white !important; padding: 10px;   
+
+ 
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
+    
+    
+.sidebar { background-color:white !important; padding: 10px;   
+	width: 30%;
+float:left;
+margin-left:10px;
+margin-top:50px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
+    
+    .item-image {  }
+
+
+@media screen and (max-width: 1200px) {
+    .articles {
+width:100% !important;
+    }
