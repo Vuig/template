@@ -17,33 +17,35 @@
 
 <body>
 
+
+<!-- NAVIGATION -->
+
 <div class="navbar navbar-fixed-top">
-<div class="navbar-inner">
-<div class="container">
-<a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</a>
+	<div class="navbar-inner">
+		<div class="container">
+			<a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>
 <a class="brand" href="<?php echo $this->baseurl; ?>">TEST</a>
-<div class="nav-collapse collapse navbar-responsive-collapse">
+			<div class="nav-collapse collapse navbar-responsive-collapse">
 <jdoc:include type="modules" name="head" style="none" />
+			</div>
+		</div>
+	</div>
 </div>
-</div>
-</div>
-</div>
-  <div class="bigpic">
-<jdoc:include type="modules" name="top" style="xhtml" />
 
+
+<!-- SLIDER -->
+
+<div class="bigpic">
+	<jdoc:include type="modules" name="top" style="xhtml" />
 </div>
+
+
 <div class="container">
 
-
-
-
-<div id="header" class="row-fluid">
-<jdoc:include type="modules" name="header" style="xhtml" />
-</div>
 
 
  <?php 
